@@ -1,4 +1,4 @@
-Challenge passed!
+Made it more concise
 
 def apply_discount(price, discount):
     if not isinstance(price, (int, float)):
@@ -13,8 +13,6 @@ def apply_discount(price, discount):
         
     if isinstance(price, (int, float)):
         if isinstance(discount, (int, float)):
-                answer = ((price) - (price * (discount / 100)))
-                print(answer)
                 return ((price) - (price * (discount / 100)))
           
-apply_discount(74.5, 80)
+print(apply_discount(74.5, 100))
